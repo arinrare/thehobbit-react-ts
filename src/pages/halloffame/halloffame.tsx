@@ -5,7 +5,7 @@ import './halloffame.css';
 const Halloffame = () => {
     React.useEffect(() => {
         document.title = "The Hobbit Website - Hall of Fame";
-        ReactGA.send({ hitType: "pageview", page: "/halloffame", title: "Hall of Fame Page" });
+        ReactGA.send({ hitType: "pageview", page: "/halloffame", title: "The Hobbit - Hall of Fame Page" });
     }, []);
 
 	return (

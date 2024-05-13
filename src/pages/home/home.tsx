@@ -5,7 +5,7 @@ import './home.css';
 const Home = () => {
   React.useEffect(() => {
     document.title = "The Hobbit Website - Home";
-    ReactGA.send({ hitType: "pageview", page: "/home", title: "Home Page" });
+    ReactGA.send({ hitType: "pageview", page: "/home", title: "The Hobbit - Home Page" });
   }, []);	
   
   return (

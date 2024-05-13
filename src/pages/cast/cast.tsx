@@ -5,7 +5,7 @@ import './cast.css';
 const Cast = () => {
     React.useEffect(() => {
         document.title = "The Hobbit Website - Cast";
-        ReactGA.send({ hitType: "pageview", page: "/cast", title: "Cast Page" });
+        ReactGA.send({ hitType: "pageview", page: "/cast", title: "The Hobbit - Cast Page" });
     }, []);
 
 	return (
