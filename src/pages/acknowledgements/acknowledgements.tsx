@@ -5,7 +5,7 @@ import './acknowledgements.css';
 const Acknowledgements = () => {
     React.useEffect(() => {
         document.title = "The Hobbit Website - Acknowledgements";
-        ReactGA.send({ hitType: "pageview", page: "/acknowledgements", title: "The Hobbit - Acknowledgements Page" });
+        ReactGA.send({ hitType: "pageview", page: "/thehobbit/acknowledgements", title: "The Hobbit - Acknowledgements Page" });
     }, []);
     
 

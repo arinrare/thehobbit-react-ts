@@ -5,7 +5,7 @@ import './registration.css';
 const Registration = () => {
     React.useEffect(() => {
         document.title = "The Hobbit Website - Registration";
-        ReactGA.send({ hitType: "pageview", page: "/registration", title: "The Hobbit - Registration Page" });
+        ReactGA.send({ hitType: "pageview", page: "/thehobbit/registration", title: "The Hobbit - Registration Page" });
       }, []);
 
 	return (

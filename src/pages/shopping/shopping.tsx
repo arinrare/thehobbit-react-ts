@@ -5,7 +5,7 @@ import './shopping.css';
 const Shopping = () => {
     React.useEffect(() => {
         document.title = "The Hobbit Website - Shopping";
-        ReactGA.send({ hitType: "pageview", page: "/shopping", title: "The Hobbit - Shopping Page" });
+        ReactGA.send({ hitType: "pageview", page: "/thehobbit/shopping", title: "The Hobbit - Shopping Page" });
       }, []);
 
 	return (
