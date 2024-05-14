@@ -1,0 +1,27 @@
+.pageColumn {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+.navmenuColumn {
+    width: 176px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.navmenuButton {	
+    margin: 5px;
+}
+
+.navmenuButton:hover {	
+    cursor: pointer;
+	opacity:0.4;
+}
+
+.navmenuImage {
+    width: 176px;
+    height: 48px;
+}
