@@ -9,6 +9,7 @@ import Shopping from './pages/shopping/shopping';
 import Preview from './pages/preview/preview';
 import Halloffame from './pages/halloffame/halloffame';
 import Cast from './pages/cast/cast';
+import Acknowledgements from './pages/acknowledgements/acknowledgements';
 
 
 const TrackingID = 'G-FKJK7PJ0VH';
@@ -33,6 +34,7 @@ function App() {
           <Route path='/shopping' element={<Shopping />} />
           <Route path='/preview' element={<Preview />} />
           <Route path='/halloffame' element={<Halloffame />} />
+          <Route path='/acknowledgements' element={<Acknowledgements />} />
         </Routes>
       </BrowserRouter>
     </>

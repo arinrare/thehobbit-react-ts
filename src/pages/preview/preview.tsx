@@ -2,6 +2,8 @@ import React from 'react';
 import ReactGA from 'react-ga4';
 import './preview.css';
 import Navmenu from '../../components/navmenu/navmenu';
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
 const Preview = () => {
     React.useEffect(() => {
@@ -11,7 +13,9 @@ const Preview = () => {
 
 	return (
         <>
-            <Navmenu />     
+            <Header />
+            <Navmenu />
+            <Footer />  
         </>
     );
 }

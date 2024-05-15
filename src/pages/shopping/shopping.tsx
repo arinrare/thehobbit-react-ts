@@ -2,6 +2,8 @@ import React from 'react';
 import ReactGA from 'react-ga4';
 import './shopping.css';
 import Navmenu from '../../components/navmenu/navmenu';
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
 const Shopping = () => {
     React.useEffect(() => {
@@ -11,7 +13,9 @@ const Shopping = () => {
 
 	return (
         <>
-            <Navmenu />      
+            <Header />
+            <Navmenu />
+            <Footer />     
         </>
     );
 }

@@ -1,0 +1,60 @@
+.synopsis {	
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.reveal {
+    position: absolute;
+    cursor: pointer;
+    background-color: yellow;
+    font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+    
+.reveal:hover {	cursor: pointer;
+     border: 2px solid red;
+    opacity:0.4;
+}
+    
+    
+.hide {	
+position: 	absolute; 
+cursor: pointer;
+background-color: yellow;
+font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+font-size: 20px;
+cursor: pointer;
+border: 2px solid black;
+border-radius: 10px;
+display: none;
+}
+
+.hide:hover {
+    cursor: pointer;
+    border: 2px solid red;
+    opacity:0.4;
+}
+
+.frontPageImage {
+    width: 100%;
+}
+
+.showSynopsis {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 2s linear;
+}
+
+.hideSynopsis {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 2s, opacity 2s linear;
+}   

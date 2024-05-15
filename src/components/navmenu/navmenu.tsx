@@ -22,7 +22,7 @@ const Navmenu = () => {
     
     return (
         <>
-            <div className="pageColumn" id = "navmenuColumn">
+            <div className="pageColumn navmenuColumn">
                 <Link onClick={() => handleClick('0')} className={sessionStorage.getItem('currentPage') === '0' ? 'navmenuButton active' : 'navmenuButton'} to='/'><img className="navmenuImage" src={homeButton} alt="Home Button" /></Link>
                 <Link onClick={() => handleClick('0')} className={sessionStorage.getItem('currentPage') === '0' ? 'navmenuButton active' : 'navmenuButton'} to='/cast'><img className="navmenuImage" src={castButton} alt="Cast Button" /></Link>
                 <Link onClick={() => handleClick('0')} className={sessionStorage.getItem('currentPage') === '0' ? 'navmenuButton active' : 'navmenuButton'} to='/gallery'><img className="navmenuImage" src={galleryButton} alt="Gallery Button" /></Link>

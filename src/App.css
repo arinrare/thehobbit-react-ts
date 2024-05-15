@@ -1,3 +1,13 @@
 #root {
     white-space: nowrap;
 }
+
+.contentColumn {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(100% - 197px);
+}
+
+.pageColumn {
+    display: inline-block;
+}

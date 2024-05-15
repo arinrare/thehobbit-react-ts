@@ -1,0 +1,29 @@
+.footerContainer {
+    width: 100%;
+    min-height: 175px;
+    border-top: 2px solid black;
+    background-image: url('../../images/footer/gradientreverse.png');
+    background-repeat: repeat-x;
+}
+    
+
+.footer {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+.ackknowledgement {
+    font-size: 10px;
+}
+
+.xhtml10Img {
+    width: 88px;
+    height: 31px;
+}
+
+.cssValidator {
+    width: 88px;
+    height: 31px;   
+    border: 0;
+}

@@ -1,11 +1,5 @@
-.pageColumn {
-    display: inline-block;
-    display: flex;
-    flex-direction: column;
-}
-
 .navmenuColumn {
-    width: 176px;
+    width: 196px;
     vertical-align: top;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -14,6 +8,7 @@
 
 .navmenuButton {	
     margin: 5px;
+    display: block;
 }
 
 .navmenuButton:hover {	

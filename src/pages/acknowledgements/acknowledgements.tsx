@@ -2,6 +2,8 @@ import React from 'react';
 import ReactGA from 'react-ga4';
 import './acknowledgements.css';
 import Navmenu from '../../components/navmenu/navmenu';
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
 const Acknowledgements = () => {
     React.useEffect(() => {
@@ -12,7 +14,9 @@ const Acknowledgements = () => {
 
 	return (
         <>
-            <Navmenu />    
+            <Header />
+            <Navmenu />
+            <Footer/>   
         </>
     );
 }
