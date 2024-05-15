@@ -1,16 +1,19 @@
 .synopsis {	
     position: absolute;
-    background-color: white;
+    background-color: rgba(0,0,0,0.5);
     padding: 5px;
     margin-left: 10px;
     margin-top: 40px;
     border-radius: 10px;
     visibility: hidden;
+    color: white;
 }
 
 .reveal {
-    position: absolute;
-    cursor: pointer;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
     background-color: yellow;
     font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
     font-size: 20px;
@@ -20,21 +23,24 @@
 }
     
 .reveal:hover {	cursor: pointer;
-     border: 2px solid red;
+    border: 2px solid red;
     opacity:0.4;
 }
     
     
 .hide {	
-position: 	absolute; 
-cursor: pointer;
-background-color: yellow;
-font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
-font-size: 20px;
-cursor: pointer;
-border: 2px solid black;
-border-radius: 10px;
-display: none;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
 }
 
 .hide:hover {
@@ -57,4 +63,19 @@ display: none;
     visibility: hidden;
     opacity: 0;
     transition: visibility 2s, opacity 2s linear;
+}
+
+.homeButtonVisible {
+    display: block;
+}
+
+.homeButtonHidden {
+    display: none;
 }   
+
+.contentColumnHome {
+    background: url(../../images/photos/gandalf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+}
