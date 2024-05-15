@@ -14,16 +14,17 @@
     width: 100px;
     text-align: center;
     margin: 5px;
-    background-color: yellow;
+    color: #C0C0C0;
+    background-color: #262626;
     font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
     font-size: 20px;
     cursor: pointer;
-    border: 2px solid black;
+    border: 2px solid #C0C0C0;
     border-radius: 10px;
 }
     
 .reveal:hover {	cursor: pointer;
-    border: 2px solid red;
+    border: 2px solid white;
     opacity:0.4;
 }
     
@@ -34,18 +35,19 @@
     text-align: center;
     margin: 5px;
     cursor: pointer;
-    background-color: yellow;
+    color: #C0C0C0;
+    background-color: #262626;
     font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
     font-size: 20px;
     cursor: pointer;
-    border: 2px solid black;
+    border: 2px solid #C0C0C0;
     border-radius: 10px;
     display: none;
 }
 
 .hide:hover {
     cursor: pointer;
-    border: 2px solid red;
+    border: 2px solid white;
     opacity:0.4;
 }
 
