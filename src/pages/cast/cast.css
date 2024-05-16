@@ -1,0 +1,70 @@
+.castHeading {	
+    width: 288px;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+    font-size: 20px;
+    border-radius: 10px;
+    color: #C0C0C0;
+    background-color: #262626;
+}
+
+.castTable {	
+    border: 1px solid #262626;
+    margin: 10px;
+    padding: 10px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.tableScroll {	
+    overflow-y: scroll;
+    height: 260px;
+    width: 260px;
+}
+
+.castName {	
+    border: 1px solid grey;
+    cursor: pointer;
+    font-family: "Lucida Grande", "Tahoma";
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.castName:hover {	
+    border: 1px solid white;
+}
+    
+.biography {	
+    padding: 5px;
+    white-space: pre-wrap;
+    max-width: 100%;
+    border: 1px solid black;
+    font-family: "Lucida Grande", "Tahoma";
+    font-size: 12px;
+    background-color: #EFEC95;
+    border-radius: 10px;
+    display: none;
+}
+
+.pic {	
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.pic:hover {
+    cursor: pointer;
+    opacity:0.4;
+}
+
+.bioShow {
+    display: block;
+}
+
+.bioHide {
+    display: none;
+}
