@@ -26,18 +26,7 @@ const Home = () => {
         <div className="contentColumn contentColumnHome">
           <div onClick={handleRevealClick} className={reveal ? "reveal homeButtonHidden" : "reveal homeButtonVisible"}>Synopsis</div>
           <div onClick={handleRevealClick} className={reveal ? "hide homeButtonVisible" : "hide homeNuttonHidden"}>Close</div>
-          <p className={reveal ? 'synopsis showSynopsis' : 'synopsis hideSynopsis'}>Bilbo, Gandalf, and the company of Dwarves led by Thorin Oakenshield,<br/>
-                              resume their journey in the land of Middle Earth. First stop is the<br/>
-                              house of Beorn, home to a mysterious shape changer. Gandalf splits from<br/>
-                              the company before they enter the dark and dangerous Mirkwood Forest, home<br/>
-                              to a particularly nasty breed of Giant Spider. Bilbo and the dwarves will<br/> 
-                              need to muster all of their courage to survive this encounter. Aided by the<br/>
-                              Wood Elves, the company makes its way towards the human town of Dale, where<br/>
-                              they are greeted by Bard, a bowman and descendant of a Lord. Gathering supplies,<br/>
-                              the companies' next stop is The Lonely Mountain itself, home to Smaug,<br/>
-                              Dragon of myth and legend. Whilst events for the White Council, led by Gandalf<br/>
-                              the Grey, are stirring in Dol Guldur, Bilbo and the company of dwarves must face<br/>
-                              'The Desolation of Smaug'.<br/><span className="close" id="close"></span></p>
+          <p className={reveal ? 'synopsis showSynopsis' : 'synopsis hideSynopsis'}>Bilbo, Gandalf, and the company of Dwarves led by Thorin Oakenshield, resume their journey in the land of Middle Earth. First stop is the house of Beorn, home to a mysterious shape changer. Gandalf splits from the company before they enter the dark and dangerous Mirkwood Forest, home to a particularly nasty breed of Giant Spider. Bilbo and the dwarves will need to muster all of their courage to survive this encounter. Aided by the Wood Elves, the company makes its way towards the human town of Dale, where they are greeted by Bard, a bowman and descendant of a Lord. Gathering supplies, the companies' next stop is The Lonely Mountain itself, home to Smaug, Dragon of myth and legend. Whilst events for the White Council, led by Gandalf the Grey, are stirring in Dol Guldur, Bilbo and the company of dwarves must face 'The Desolation of Smaug'.<span className="close" id="close"></span></p>
 			  </div>
         <Footer />        
 		</>

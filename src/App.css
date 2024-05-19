@@ -15,3 +15,25 @@
     background-color: #C0C0C0;
     height: 500px;
 }
+
+@media  (max-width:670px) {
+	.pageColumn {
+        display: block;
+    } 
+    .navmenuColumn {
+        width: 100vw !important;
+        text-align: center;
+        display: block !important;
+        margin: 0px !important;
+        height: 360px;
+    }
+    .navmenuButton {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .contentColumn {
+        width: 100vw;
+        min-height: 300px !important
+    }
+   
+}

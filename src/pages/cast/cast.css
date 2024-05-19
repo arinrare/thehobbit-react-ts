@@ -9,6 +9,8 @@
     border-radius: 10px;
     color: #C0C0C0;
     background-color: #262626;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .castTable {	
@@ -17,12 +19,20 @@
     padding: 10px;
     height: 260px;
     border-radius: 10px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.castTable td {
+    vertical-align: top;
 }
 
 .tableScroll {	
     overflow-y: scroll;
-    height: 260px;
+    height: 100%;
     width: 260px;
+    scrollbar-width: thin;
 }
 
 .castName {	
@@ -48,6 +58,9 @@
     background-color: #EFEC95;
     border-radius: 10px;
     display: none;
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
 }
 
 .pic {	
