@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactGA from 'react-ga4';
 import './home.css';
 
@@ -7,7 +7,7 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 
 const Home = () => {
-  React.useEffect(() => {
+  useEffect(() => {
     document.title = "The Hobbit Website - Home";
     ReactGA.send({ hitType: "pageview", page: "/thehobbit/home", title: "The Hobbit - Home Page" });
   }, []);	

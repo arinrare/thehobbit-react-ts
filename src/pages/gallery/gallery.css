@@ -1,0 +1,9 @@
+.contentColumnGallery {
+    display: inline-block !important;
+    max-width: calc(100% - 196px);
+}
+
+.image-gallery-thumbnails {
+    width: calc(100% -196px) !important;
+    overflow-x: auto !important;
+}

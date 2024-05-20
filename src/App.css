@@ -1,5 +1,6 @@
 #root {
     white-space: nowrap;
+    background-color: #C0C0C0;
 }
 
 .contentColumn {
@@ -7,13 +8,13 @@
     display: table-cell;
     width: 100%;
     background-color: #C0C0C0;
-    height: 500px;
+    min-height: 500px;
 }
 
 .pageColumn {
     display: inline-block;
     background-color: #C0C0C0;
-    height: 500px;
+    min-height: 500px;
 }
 
 @media  (max-width:670px) {
@@ -26,6 +27,11 @@
         display: block !important;
         margin: 0px !important;
         height: 360px;
+    }
+    #contentColumnGallery {
+        display: block !important;
+        width: 100vw !important;
+        max-width: 100vw !important;
     }
     .navmenuButton {
         margin-top: 0px !important;

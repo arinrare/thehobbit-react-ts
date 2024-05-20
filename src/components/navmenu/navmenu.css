@@ -1,10 +1,12 @@
 .navmenuColumn {
     width: 196px;
     vertical-align: top;
-    margin-top: 20px;
-    margin-bottom: 20px;
     position: relative;
     display: table-cell;
+}
+
+.navmenuColumnGallery {
+    display: inline-block !important;
 }
 
 .navmenuButton {	

@@ -13,9 +13,21 @@
     margin-left: 20px;
 }
     
-.ackknowledgement {
-    font-size: 10px;
+.acknowledgement {
+    font-size: 16px;
+    display: block !important;
+    padding-bottom: 20px;
 }
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
 
 .xhtml10Img {
     width: 88px;
