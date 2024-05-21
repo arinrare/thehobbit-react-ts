@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactGA from 'react-ga4';
 import './cast.css';
 import Navmenu from '../../components/navmenu/navmenu';
@@ -21,6 +21,12 @@ const phillipaboyens = require('../../images/cast/phillipaboyens.jpg');
 const Cast = () => {
     
     const [actorBio, setActorBio] = useState<{ [key: string]: boolean }>({ianmckellen: false, martinfreeman: false, richardarmitage: false, benedictcumberbatch: false, orlandobloom: false, evangelinelilly: false, leepace: false, lukeevans: false, stephenfry: false, peterjackson: false, franwalsh: false, phillipaboyens: false});
+    
+    useEffect(() => {
+        document.title = "The Hobbit Website - Cast & Crew";
+        ReactGA.send({ hitType: "pageview", page: "/thehobbit/cast&crew", title: "The Hobbit - Cast & Crew Page" });
+        sessionStorage.setItem('currentPage', '1');
+      }, []);	
     
     function displayBio(actor: string) {
         let bio = actorBio;

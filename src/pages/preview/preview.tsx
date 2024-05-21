@@ -9,7 +9,8 @@ const Preview = () => {
     useEffect(() => {
         document.title = "The Hobbit Website - Preview";
         ReactGA.send({ hitType: "pageview", page: "/thehobbit/preview", title: "The Hobbit - Preview Page" });
-      }, []);
+        sessionStorage.setItem('currentPage', '5');
+    }, []);
 
 	return (
         <>

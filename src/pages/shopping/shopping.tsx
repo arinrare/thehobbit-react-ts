@@ -9,7 +9,8 @@ const Shopping = () => {
     useEffect(() => {
         document.title = "The Hobbit Website - Shopping";
         ReactGA.send({ hitType: "pageview", page: "/thehobbit/shopping", title: "The Hobbit - Shopping Page" });
-      }, []);
+        sessionStorage.setItem('currentPage', '4');
+    }, []);
 
 	return (
         <>

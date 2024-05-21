@@ -11,6 +11,7 @@ const Gallery = () => {
     useEffect(() => {
         document.title = "The Hobbit Website - Gallery";
         ReactGA.send({ hitType: "pageview", page: "/thehobbit/gallery", title: "The Hobbit - Gallery Page" });
+        sessionStorage.setItem('currentPage', '2');
     }, []);
 
     const images = [

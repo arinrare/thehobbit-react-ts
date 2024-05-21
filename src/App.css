@@ -20,6 +20,7 @@
 @media  (max-width:670px) {
 	.pageColumn {
         display: block;
+        min-height: 360px !important;
     } 
     .navmenuColumn {
         width: 100vw !important;
@@ -39,7 +40,35 @@
     }
     .contentColumn {
         width: 100vw;
-        min-height: 300px !important
+        min-height: 300px !important;
+        display: block !important;
     }
-   
+
+    .formInstructions, .form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .registrationForm {
+        flex-direction: column;
+    }
+    
+    .formInstructions {
+        margin-top: 20px !important;
+    }
+}
+
+@media  (min-width: 671px) and (max-width:1085px) {
+    .registrationForm {
+        flex-direction: column;
+    }
+    
+    .formInstructions, .form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .formInstructions {
+        margin-top: 20px !important;
+    }
 }

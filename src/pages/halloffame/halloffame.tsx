@@ -9,6 +9,7 @@ const Halloffame = () => {
     useEffect(() => {
         document.title = "The Hobbit Website - Hall of Fame";
         ReactGA.send({ hitType: "pageview", page: "/thehobbit/halloffame", title: "The Hobbit - Hall of Fame Page" });
+        sessionStorage.setItem('currentPage', '6');
     }, []);
 
 	return (

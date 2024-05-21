@@ -10,6 +10,7 @@ const Home = () => {
   useEffect(() => {
     document.title = "The Hobbit Website - Home";
     ReactGA.send({ hitType: "pageview", page: "/thehobbit/home", title: "The Hobbit - Home Page" });
+    sessionStorage.setItem('currentPage', '0');
   }, []);	
 
   const [reveal, setReveal] = useState(false);
