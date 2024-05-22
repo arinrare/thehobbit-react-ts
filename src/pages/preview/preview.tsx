@@ -16,6 +16,11 @@ const Preview = () => {
         <>
             <Header />
             <Navmenu />
+            <div className = "contentColumn">
+				<div className="preview">
+					<iframe className="previewIframe" src="https://www.youtube.com/embed/OPVWy1tFXuc?feature=player_detailpage" allowFullScreen></iframe>
+				</div>
+			</div>
             <Footer />  
         </>
     );
