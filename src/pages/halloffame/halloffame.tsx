@@ -5,6 +5,8 @@ import Navmenu from '../../components/navmenu/navmenu';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 
+const ring = require('../../images/halloffame/ring.png');
+
 const Halloffame = () => {
     useEffect(() => {
         document.title = "The Hobbit Website - Hall of Fame";
@@ -16,6 +18,11 @@ const Halloffame = () => {
         <>
             <Header />
             <Navmenu />
+            <div className="contentColumn">
+				<div className="halloffame">			
+				    <img className="ring grow" src={ring} alt="The One Ring" />
+                </div>
+            </div>
             <Footer />    
         </>
     );

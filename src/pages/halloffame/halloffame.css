@@ -1,0 +1,22 @@
+.halloffame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 404px;
+}
+
+.ring {	
+    margin: 20px;
+    width: 124px;
+    height: auto;
+    cursor: pointer;
+}
+
+.grow { 
+    transition: all 3s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(5); 
+    }
+
