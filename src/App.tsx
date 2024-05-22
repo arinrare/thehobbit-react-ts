@@ -25,7 +25,7 @@ function App() {
    // <BrowserRouter basename="/portfolio/thehobbit-react-ts"> ** Goes in the BrowserRouter tag above the Routes tag
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio/thehobbit-react-ts">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/cast' element={<Cast />} />

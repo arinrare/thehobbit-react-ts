@@ -1,5 +1,4 @@
 .synopsis {	
-    position: absolute;
     background-color: rgba(0,0,0,0.5);
     padding: 5px;
     margin-left: 10px;
@@ -7,8 +6,8 @@
     border-radius: 10px;
     visibility: hidden;
     color: white;
-    max-width: 400px;
-    max-height: 450px;
+    max-width: 450px;
+    max-height: 400px;
     text-wrap: wrap;
 }
 
