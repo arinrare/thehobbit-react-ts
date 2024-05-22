@@ -1,0 +1,80 @@
+.shoppingContainer {
+    text-align: center;
+}
+		
+.shoppingHeading {
+    width: 250px;
+	margin: 5px;
+	margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+    font-size: 20px;
+    -moz-border-radius: 10px; /* for Mozilla based browsers like FireFox */
+    -webkit-border-radius: 10px; /* for browsers that use Webkit like Safari, Opera, Chrome */
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+    border: 2px solid yellow;
+    background-color: rgba(227, 220, 121, 0.5);
+}
+					
+.placeholder {	
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+				
+.description {	
+    display: inline-block;
+    width: 174px;
+    vertical-align: top;
+    margin: 5px;
+    padding: 5px;
+    height: 174px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: pre-wrap;  
+    background-color: rgba(227, 220, 121, 0.5);
+    font-size: 12px;
+    font-family: "Lucida Grande", "Tahoma";
+}
+				
+.heading {	
+    display: inline-block;
+    width: 174px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: "Comic Sans MS", "Lucida Grande", "sans-serif";
+    font-size: 14px;
+}
+
+.shoppingImage {
+    width: 174px;
+    height: 174px;
+}
+
+.shoppingTable {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.gridRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.gridItem {
+    height: 450px;
+    flex-basis: 16%;
+    -ms-flex: auto;
+    flex: auto;
+    width: 259px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
